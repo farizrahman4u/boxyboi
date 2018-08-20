@@ -10,9 +10,9 @@ Boxyboi lets you bind (not really) attributes to primitives like strings and int
 ## Example
 
 ```python
-from boxyboi import box
+from boxyboi import Box
 
-dude = box('Abin Simon')
+dude = Box('Abin Simon')
 dude.age = 22
 dude.github = 'github.com/meain'
 
