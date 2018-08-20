@@ -18,6 +18,9 @@ class Box(object):
             return self.__dict__[attr]
         return getattr(self.value, attr)
 
+    def __len__(self):
+        return len(self.value)
+
     def __str__(self):
         return str(self.value)
 
@@ -245,3 +248,5 @@ class Box(object):
 
     def __oct__(self):
         return oct(self.value)
+
+box = Box

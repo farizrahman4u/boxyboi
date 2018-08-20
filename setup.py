@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 
 setup(name='boxyboi',
-      version='2.2.0',
+      version='2.2.3',
       description='Boxing primitives in python',
       author='Fariz Rahman',
       author_email='farizrahman4u@gmail.com',
