@@ -19,7 +19,7 @@ dude.github = 'github.com/meain'
 print(dude)  # >>> 'Abin Simon'
 
 # `dude` behaves like a `str`:
-print(dude.lower())  # >>> `abin simon`
+print(dude.lower())  # >>> 'abin simon'
 print(len(dude))  # >>> 10
 print(dude.split(' '))  # >>> ['Abin', 'Simon']
 
