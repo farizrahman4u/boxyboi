@@ -7,7 +7,7 @@ Boxing primitives in python
 Boxyboi lets you bind (not really) attributes to primitives like strings and integers while preserving their natural behaviour.
 
 
-##Example
+## Example
 
 ```python
 from boxyboi import box
