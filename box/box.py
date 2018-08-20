@@ -1,6 +1,3 @@
-import operator
-
-
 def unbox(f):
     def wrapper(self, x):
         if type(x) is Box:
